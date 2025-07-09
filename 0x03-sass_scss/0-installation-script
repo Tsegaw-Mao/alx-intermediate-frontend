@@ -1,0 +1,14 @@
+# 0-installation-script
+
+# Step 1: Install NVM (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# Step 2: Exit and reopen terminal, then run:
+source ~/.nvm/nvm.sh
+
+# Step 3: Install Node.js version 20.16.0 using NVM
+nvm install 20.16.0
+nvm use 20.16.0
+
+# Step 4: Install modern Dart Sass (latest version)
+npm install sass
